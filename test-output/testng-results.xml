@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Search text is entered]]>
+    </line>
+    <line>
+      <![CDATA[Search button is clicked]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12024" started-at="2020-07-08T20:45:50 IST" finished-at="2020-07-08T20:46:02 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12024" started-at="2020-07-08T20:45:50 IST" finished-at="2020-07-08T20:46:02 IST">
+      <class name="testcase.HomePageTest">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:testcase.HomePageTest@72b6cbcc]" name="initialise" is-config="true" duration-ms="4456" started-at="2020-07-08T20:45:50 IST" finished-at="2020-07-08T20:45:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="searchProduct()[pri:0, instance:testcase.HomePageTest@72b6cbcc]" name="searchProduct" duration-ms="7275" started-at="2020-07-08T20:45:54 IST" finished-at="2020-07-08T20:46:01 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Search text is entered]]>
+            </line>
+            <line>
+              <![CDATA[Search button is clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="tearDrop()[pri:0, instance:testcase.HomePageTest@72b6cbcc]" name="tearDrop" is-config="true" duration-ms="262" started-at="2020-07-08T20:46:01 IST" finished-at="2020-07-08T20:46:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDrop -->
+      </class> <!-- testcase.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
